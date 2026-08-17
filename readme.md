@@ -15,9 +15,8 @@ GPIO IP-core with the AXI4-Lite interface.
 
 ### Register Space:
 
-| Address Space | Register Name | Access | Description                                     |
-| Offset        |               | Type   |                                                 |
-|---------------|---------------|--------|-------------------------------------------------|
-| 0x00          | GPIO_TRI      | R/W    | GPIO 3-state control register. 0 - in, 1 - out. |
-| 0x04          | GPIO_DATA_OUT | R/W    | GPIO data out register.                         |
-| 0x08          | GPIO_DATA_IN  | R      | GPIO data in register.                          |
+| Address Space Offset| Register Name | Access Type | Description                                     |
+|---------------------|---------------|-------------|-------------------------------------------------|
+| 0x00                | GPIO_TRI      | R/W         | GPIO 3-state control register. 0 - in, 1 - out. |
+| 0x04                | GPIO_DATA_OUT | R/W         | GPIO data out register.                         |
+| 0x08                | GPIO_DATA_IN  | R           | GPIO data in register.                          |
