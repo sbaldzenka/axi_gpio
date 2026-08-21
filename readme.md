@@ -1,5 +1,7 @@
 # axi_gpio
 
+> **version: 1.0**
+
 ## Description
 
 GPIO IP-core with the AXI4-Lite interface.
